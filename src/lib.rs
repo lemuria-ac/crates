@@ -1,2 +1,2 @@
 mod windows;
-pub use windows::{BUTTON, CODE, ICON, MessageBox};
+pub use windows::{BUTTON, ICON, MessageBox};

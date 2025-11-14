@@ -32,7 +32,7 @@ pub enum BUTTON {
 }
 
 #[derive(Copy, Clone)]
-pub enum CODE {
+enum CODE {
     NONE,
     OK,
     CANCEL,
