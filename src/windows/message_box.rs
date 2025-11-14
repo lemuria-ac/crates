@@ -28,10 +28,10 @@ pub enum BUTTON {
     YesNoCancel = 0x3,
     YesNo = 0x4,
     RetryCancel = 0x5,
-    Canceltrycontinue = 0x6
+    Canceltrycontinue = 0x6,
 }
 
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub enum CODE {
     NONE,
     OK,
