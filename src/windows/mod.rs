@@ -1,2 +1,2 @@
 mod message_box;
-pub use message_box::{BUTTON, ICON, MessageBox};
+pub use message_box::message_box::{BUTTON, ICON, MessageBox};

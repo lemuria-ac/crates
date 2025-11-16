@@ -1,2 +1,2 @@
-mod windows;
-pub use windows::{BUTTON, ICON, MessageBox};
+#[cfg(target_os = "windows")]
+pub mod windows;
